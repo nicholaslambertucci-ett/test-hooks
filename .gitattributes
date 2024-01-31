@@ -1,9 +1,7 @@
 ## Unity ##
-
 *.cs diff=csharp text
 *.cginc text
 *.shader text
-
 *.mat merge=unityyamlmerge eol=lf
 *.anim merge=unityyamlmerge eol=lf
 *.unity merge=unityyamlmerge eol=lf
@@ -13,10 +11,7 @@
 *.asset merge=unityyamlmerge eol=lf
 *.meta merge=unityyamlmerge eol=lf
 *.controller merge=unityyamlmerge eol=lf
-
-
 ## git-lfs ##
-
 #Image
 *.jpg filter=lfs diff=lfs merge=lfs -text
 *.JPG filter=lfs diff=lfs merge=lfs -text
@@ -31,16 +26,13 @@
 *.svg filter=lfs diff=lfs merge=lfs -text
 *.bmp filter=lfs diff=lfs merge=lfs -text
 *.TGA filter=lfs diff=lfs merge=lfs -text
-
 #Audio
 *.mp3 filter=lfs diff=lfs merge=lfs -text
 *.wav filter=lfs diff=lfs merge=lfs -text
 *.ogg filter=lfs diff=lfs merge=lfs -text
-
 #Video
 *.mp4 filter=lfs diff=lfs merge=lfs -text
 *.mov filter=lfs diff=lfs merge=lfs -text
-
 #3D Object
 *.FBX filter=lfs diff=lfs merge=lfs -text
 *.fbx filter=lfs diff=lfs merge=lfs -text
@@ -48,8 +40,6 @@
 *.obj filter=lfs diff=lfs merge=lfs -text
 *.mtl filter=lfs diff=lfs merge=lfs -text
 *.max filter=lfs diff=lfs merge=lfs -text
-
-
 #ETC
 *.a filter=lfs diff=lfs merge=lfs -text
 *.exr filter=lfs diff=lfs merge=lfs -text
@@ -68,7 +58,6 @@
 *.so filter=lfs diff=lfs merge=lfs -text
 *.jar filter=lfs diff=lfs merge=lfs -text
 *.aar filter=lfs diff=lfs merge=lfs -text
-
 # Other
 *.dat filter=lfs diff=lfs merge=lfs -text
 *.p7s filter=lfs diff=lfs merge=lfs -text
@@ -77,7 +66,6 @@
 *.pb filter=lfs diff=lfs merge=lfs -text
 *.dylib filter=lfs diff=lfs merge=lfs -text
 QCAR/** filter=lfs diff=lfs merge=lfs -text
-
 # Stuff
 PikkartARCore.bundle/** filter=lfs diff=lfs merge=lfs -text
 **/ovrplatform.bundle/** filter=lfs diff=lfs merge=lfs -text
@@ -85,3 +73,4 @@ OVRLipSync.bundle filter=lfs diff=lfs merge=lfs -text
 *.blend1 filter=lfs diff=lfs merge=lfs -text
 *.dll.disabled filter=lfs diff=lfs merge=lfs -text
 *.dll.old0 filter=lfs diff=lfs merge=lfs -text
+01.png filter=lfs diff=lfs merge=lfs -text

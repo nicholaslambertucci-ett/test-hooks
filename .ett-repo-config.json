@@ -1,0 +1,12 @@
+﻿{
+  "Repository": {
+    "LfsBasePath": null
+  },
+  "FileSizes": {
+    "CustomFileSizeTreshold": {
+      "sub/BASSORILIEVI_LATERALI_DIFFUSE.png":  360,
+      "sub/BASSORILIEVI_LATERALI_DIFFUSE2.png":  600
+    }
+  }
+
+}
