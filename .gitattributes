@@ -74,3 +74,4 @@ OVRLipSync.bundle filter=lfs diff=lfs merge=lfs -text
 *.dll.disabled filter=lfs diff=lfs merge=lfs -text
 *.dll.old0 filter=lfs diff=lfs merge=lfs -text
 01.png filter=lfs diff=lfs merge=lfs -text
+02.png filter=lfs diff=lfs merge=lfs -text
