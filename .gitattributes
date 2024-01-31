@@ -76,3 +76,4 @@ OVRLipSync.bundle filter=lfs diff=lfs merge=lfs -text
 01.png filter=lfs diff=lfs merge=lfs -text
 02.png filter=lfs diff=lfs merge=lfs -text
 03.png filter=lfs diff=lfs merge=lfs -text
+*.txt filter=lfs diff=lfs merge=lfs -text
